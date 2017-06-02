@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>The 13th century world</name>
+	<Icon>
+		<href>8.jpg</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>75.38693485273303</north>
+		<south>-45.11748354314512</south>
+		<east>191.3828851558846</east>
+		<west>-15.78413560280644</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

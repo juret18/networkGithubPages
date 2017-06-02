@@ -6,87 +6,13 @@
 	<StyleMap id="msn_hiker">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker2</styleUrl>
+			<styleUrl>#sn_hiker0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker</styleUrl>
+			<styleUrl>#sh_hiker2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ダウンロード0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ダウンロード</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ダウンロード</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_hiker">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fff7ffff</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0600fc</color>
-			<width>2.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker0">
-		<IconStyle>
-			<color>ff0affff</color>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ダウンロード">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="failed0">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_hiker7">
 		<Pair>
 			<key>normal</key>
@@ -97,203 +23,6 @@
 			<styleUrl>#sh_hiker20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_hiker">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fff5fff4</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_hiker0">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="failed1">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_hiker1">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_hiker0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_hiker2">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fff7ffff</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0600fc</color>
-			<width>2.5</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ranger_station">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ranger_station</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ranger_station</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_hiker1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_hiker2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_hiker3">
-		<IconStyle>
-			<scale>6.99999</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_hiker4">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.6</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ダウンロード">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ダウンロード</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ranger_station">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker1">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
 	<StyleMap id="msn_hiker3">
 		<Pair>
 			<key>normal</key>
@@ -304,73 +33,9 @@
 			<styleUrl>#sh_hiker4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_hiker2">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fff5fff4</color>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker3">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ranger_station">
+	<Style id="sh_hiker8">
 		<IconStyle>
 			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker5">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker4">
-		<IconStyle>
-			<scale>6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
 			</Icon>
@@ -379,47 +44,6 @@
 		<LabelStyle>
 			<color>fffefffd</color>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_hiker5">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_hiker6">
-		<IconStyle>
-			<color>ff0affff</color>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2f1afc</color>
 			<width>3</width>
@@ -432,11 +56,90 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker2</styleUrl>
+			<styleUrl>#sh_hiker21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_hiker7">
+	<Style id="sn_hiker5">
 		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff5fff4</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff7ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2.5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ダウンロード0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ダウンロード</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ダウンロード</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hiker1">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker0">
+		<IconStyle>
+			<color>ff0affff</color>
 			<scale>7.09092</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
@@ -449,6 +152,44 @@
 		</LabelStyle>
 		<ListStyle>
 		</ListStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="failed0">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hiker4">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fffefffd</color>
+		</LabelStyle>
 		<LineStyle>
 			<color>ff2f1afc</color>
 			<width>3</width>
@@ -471,7 +212,70 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_hiker6">
+	<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hiker5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hiker2">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff5fff4</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker1">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hiker0">
 		<IconStyle>
 			<scale>6</scale>
 			<Icon>
@@ -498,8 +302,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff0c00fc</color>
 			<width>2.6</width>
@@ -507,8 +309,97 @@
 	</Style>
 	<Style id="sh_hiker20">
 		<IconStyle>
+			<scale>1.4</scale>
 			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
 			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker2">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hiker6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ダウンロード">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ダウンロード</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hiker7">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker3">
+		<IconStyle>
+			<color>ff0affff</color>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
 			<color>ffebffe8</color>
@@ -528,20 +419,60 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker3</styleUrl>
+			<styleUrl>#sh_hiker30</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_hiker5">
+	<Style id="sh_ダウンロード">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker6</styleUrl>
+			<styleUrl>#sn_hiker1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker7</styleUrl>
+			<styleUrl>#sh_hiker1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_hiker8">
+	<StyleMap id="msn_hiker1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker5">
 		<IconStyle>
 			<scale>7.09092</scale>
 			<Icon>
@@ -550,35 +481,126 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
-			<color>fffefffd</color>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2f1afc</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_hiker6">
+	<Style id="sn_hiker6">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker4</styleUrl>
+			<styleUrl>#sn_hiker3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker8</styleUrl>
+			<styleUrl>#sh_hiker0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="failed">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed1</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="sh_hiker21">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff7ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2.5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker3">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="failed1">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hiker30">
+		<IconStyle>
+			<scale>6.99999</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker4">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker8">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
 	<Folder>
 		<name>当時マルコ行ったの場所</name>
 		<open>1</open>
@@ -597,12 +619,12 @@
 				<begin>1281</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker1</styleUrl>
+			<styleUrl>#msn_hiker2</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>75.77675016048366,39.47687417319234,15320</coordinates>
+				<coordinates>75.77675016048366,39.47687417319234,800000</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -735,7 +757,7 @@
 				<begin>1283-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker0</styleUrl>
+			<styleUrl>#msn_hiker00</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -758,7 +780,7 @@
 				<begin>1283</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker0</styleUrl>
+			<styleUrl>#msn_hiker00</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -781,7 +803,7 @@
 				<begin>1282-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker0</styleUrl>
+			<styleUrl>#msn_hiker</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -804,7 +826,7 @@
 				<begin>1282</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker0</styleUrl>
+			<styleUrl>#msn_hiker00</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -827,7 +849,7 @@
 				<begin>1281-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker0</styleUrl>
+			<styleUrl>#msn_hiker00</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1206,7 +1228,7 @@
 		</Placemark>
 		<Placemark>
 			<name>ブハラ</name>
-			<description>马克一行人一路往前走来到了布哈拉（这个时候的布哈拉属于波斯王朝），马克他们在这里待了三年，有一天大汗忽必烈使臣经过此处看见了他们，并很好奇并且想把他们带到大汗那里去，他们答应了并跟使臣一起前往了上都。</description>
+			<description>マルコたちブハラに来た、3年間ここで住んでました、３年後は皆んなクブライカンの使節(shisetsu)と一緒モンゴロへ出発しました</description>
 			<LookAt>
 				<longitude>64.45557699368855</longitude>
 				<latitude>39.76808276185044</latitude>
@@ -1220,7 +1242,7 @@
 				<begin>1272-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker2</styleUrl>
+			<styleUrl>#msn_hiker1</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1322,7 +1344,7 @@
 				<begin>1271</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker</styleUrl>
+			<styleUrl>#msn_hiker0</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>

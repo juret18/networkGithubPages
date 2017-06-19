@@ -1,430 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>mongolian empire.kml</name>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff2200fc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2d00fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff1000fc</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2a00fc</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2a00fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2700fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff2200fc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2d00fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2700fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0b00fc</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2700fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff1000fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2200fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2200fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff0b00fc</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff2700fc</color>
-		</PolyStyle>
-	</Style>
-	<Folder>
-		<name>当時のモンゴル帝国</name>
+<Folder>
+	<name>保留</name>
+	<open>1</open>
+	<Document>
+		<name>mongolian empire.kml</name>
 		<open>1</open>
-		<Placemark>
-			<name>モンゴル1206</name>
-			<TimeSpan>
-				<begin>1206</begin>
-				<end>1218-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin4</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							92.58519897078335,56.84251534353812,106473 98.89331046616428,44.60178867430128,106473 119.1762954046559,45.65406194133855,106473 121.0548621984773,50.25225728509107,106473 122.2010037004821,54.58473070311505,106473 122.451283368877,57.96742913805531,106473 112.0676744086049,58.23871026948135,106473 92.58519897078335,56.84251534353812,106473
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>モンゴル1219</name>
-			<TimeSpan>
-				<begin>1219</begin>
-				<end>1222-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							83.85337280350356,56.197127393174,168052 92.62554117076577,43.1287473335242,168052 106.7580583875804,42.61609351891552,168052 121.6414631821288,44.48339850100509,168052 132.8364177010964,48.75916429119563,168052 133.5087726447005,54.10331392980932,168052 132.1176024411234,57.78341441919319,168052 125.444073006757,60.35854551483796,168052 121.71479221738,61.26497400426372,168052 124.4172349214744,60.70491147053012,168052 132.2005271257481,57.83409051572301,168052 134.7208669190583,64.21108036166451,168052 107.007160729113,60.84469877418614,168052 83.85337280350356,56.197127393174,168052
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>モンゴル1223</name>
-			<TimeSpan>
-				<begin>1223</begin>
-				<end>1226-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin3</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							69.12307881652525,47.87739756531688,180288 78.43016268686391,37.6839559329028,180288 95.62998891347169,44.88183151103028,180288 112.1561116134407,42.01064064787047,180288 127.1004196854815,42.26977388649784,180288 138.1817612636281,47.48411556411996,180288 143.7279162305634,55.77343622162579,180288 140.7142308317185,61.18623816174014,180288 121.7202827559533,62.5138691048688,180288 115.0136513738383,63.65302048299986,180288 87.85198413552129,61.86022400738791,180288 69.12307881652525,47.87739756531688,180288
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>モンゴル1227</name>
-			<TimeSpan>
-				<begin>1227</begin>
-				<end>1236-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							65.0603518825188,51.99505952382015,316361 73.35171282369443,37.15785557495322,316361 83.05084906178212,31.86366430769777,316361 108.3709014006241,41.12450941182001,316361 106.6789289248221,40.29671717494681,316361 108.6918104481205,40.24312715711825,316361 107.8487227218003,40.1670715866913,316361 106.6408759398063,40.64123500451387,316361 108.3635025108484,40.46113348032451,316361 109.1178974145084,40.79880732869493,316361 108.607482721569,40.13186795453453,316361 108.3562529997056,39.79787029063245,316361 108.7439486185504,39.47078750675971,316361 109.9016446177532,39.0957738236394,316361 121.9715982443763,42.27657856423691,316361 123.9013581381279,42.19230691691533,316361 125.2491078131125,41.92081898193866,316361 126.2453424608191,41.65088271871155,316361 127.0670639930656,42.38642749135163,316361 126.1607123679214,42.94090959453482,316361 124.6501034278882,44.1517022107077,316361 125.5341354167038,43.23609096448686,316361 126.8532642071437,42.72842905899349,316361 110.4745637423346,40.8637317703418,316361 145.0771674126085,44.96117913837173,316361 154.6831998561944,48.7906740965242,316361 155.500403745425,50.22112688271594,316361 154.4987131559605,52.31401850692309,316361 145.3847728855321,56.59847293514502,316361 135.6074497856302,56.41052955730181,316361 145.5253402054965,56.70071239880893,316361 151.1785626899727,53.56499852858695,316361 148.0773736451172,54.68659056272264,316361 151.1210591177791,55.29182284235497,316361 154.2831449917807,55.82377431100107,316361 158.8017756803387,56.35081257850726,316361 155.8934286239362,56.98039883210376,316361 157.8797421818662,56.52952135771173,316361 156.9561597056944,56.57960201392396,316361 162.539478877184,56.50186621527807,316361 158.1577148188531,56.47691888674217,316361 155.74658050987,57.28248880772713,316361 156.6158608098808,58.34180504780104,316361 158.2651913629968,59.28196476091573,316361 157.4265814374689,60.05519031918059,316361 160.6826678288899,59.89650705080559,316361 161.7465769620865,59.59514080202647,316361 162.2078104046299,59.6265404306921,316361 156.1208115672737,60.14145763290232,316361 153.8087035398163,60.1275604781442,316361 154.8271612136882,59.88680968410857,316361 156.2479254033326,59.68782018090618,316361 156.7924254011654,59.8290419855467,316361 153.9721560847042,59.99812245850399,316361 153.0866354345625,60.32381428330932,316361 147.5452735201311,60.66707497099938,316361 145.1695995478775,60.36182614744257,316361 137.0404066395843,59.22836778713286,316361 147.609036842163,60.65876267745892,316361 160.9279255057181,59.74939446244949,316361 157.9657320631895,60.2187432686513,316361 169.0761506878774,62.67811739995012,316361 103.5667182859973,63.89671617242685,316361 65.0603518825188,51.99505952382015,316361
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>モンゴル1237</name>
-			<TimeSpan>
-				<begin>1237</begin>
-				<end>1258-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							59.04100208873405,48.16646328591446,253125 66.28783086900766,33.41019570948846,253125 90.97829073037235,34.48684310338379,253125 103.3568544037355,38.87147800783364,253125 114.3339785026042,40.88694592739382,253125 126.099073527857,42.15703865092233,253125 141.8579541155979,34.00614349919552,253125 148.509208471773,46.7445396424762,253125 141.1221881830213,52.86298318214376,253125 140.9854465176234,53.64490402064442,253125 137.9332823149543,54.91405202687957,253125 138.6356267102847,55.76532074941826,253125 142.9812583834185,58.80028254486161,253125 149.0270527096999,59.50248737189772,253125 152.8041252107072,59.59897525109529,253125 155.1264447993439,59.60616217474876,253125 150.2949437756484,60.98641466644652,253125 146.0893628417471,61.71439881326363,253125 152.9187256365076,63.77909096455845,253125 145.2133046636796,64.81269426730164,253125 131.7215459008519,65.21940559896514,253125 124.6146844450563,65.30690955367838,253125 114.6429043184535,64.94380742267614,253125 103.9738631772539,63.62151577234362,253125 96.60253710907243,63.82916303604997,253125 89.43924292107876,62.07760802550599,253125 83.88522971360375,61.27450216103687,253125 69.53143390931022,58.14247398156691,253125 59.04100208873405,48.16646328591446,253125
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>モンゴル1259</name>
-			<TimeSpan>
-				<begin>1259</begin>
-				<end>1278-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin5</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							140.9329296159733,30.81633345805296,1500000 140.8694656454501,42.31954536638864,1500000 152.0900709392726,45.25503313822048,1500000 150.370361819294,46.17333396154588,1500000 149.4881039777219,47.05464255246398,1500000 151.4940802738539,48.3209281291707,1500000 151.7135367028251,50.83681285185126,1500000 148.8494915777808,53.35653116666747,1500000 147.432930214313,55.76516715678538,1500000 143.8764354517193,56.8188348026649,1500000 137.2708222781289,54.40968464275065,1500000 134.2666865100241,55.0352620686216,1500000 128.2456113629424,56.3470239239584,1500000 114.8871422192325,58.81815688150068,1500000 104.0227728034685,60.92520014679199,1500000 86.94003142661229,60.75585932699266,1500000 75.00476913613214,59.9332315316446,1500000 62.44892611258852,57.71406611841413,1500000 54.59632035614996,54.67324399424943,1500000 56.48460542253905,51.04361365915731,1500000 54.71578154820803,48.08609083666917,1500000 55.58135853607293,30.9013218541279,1500000 140.9329296159733,30.81633345805296,1500000
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>モンゴル1279</name>
-			<TimeSpan>
-				<begin>1279</begin>
-				<end>1294-12-31T23:59:59Z</end>
-			</TimeSpan>
-			<styleUrl>#msn_ylw-pushpin1</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							126.1801354992609,18.76115646637513,1400000 139.8351593319678,33.87104500069209,1400000 145.3339576247169,42.97432014003246,1400000 147.8988865106093,44.47972585509501,1400000 148.5928780612224,45.65674228083846,1400000 154.1130976839588,48.53325689379032,1400000 151.3198850745851,52.52293988260437,1400000 139.8635664819658,52.36486135377266,1400000 134.9472355382465,54.18865071201702,1400000 130.7750236196718,56.60788368716191,1400000 125.2984700031043,57.9842861278953,1400000 117.0903004863588,59.71402913410436,1400000 108.6057124165781,61.86312938000988,1400000 100.5849647283583,62.79207209156609,1400000 95.27793815921579,63.15738754132046,1400000 88.4634701511133,63.17185952461107,1400000 78.79258518581973,62.76365458678806,1400000 73.53232314284567,63.26710341680009,1400000 65.40796322425706,61.50744656884343,1400000 59.843208341104,59.56997306540343,1400000 49.66120655993182,55.90998085887814,1400000 51.61728740632499,50.23567814960026,1400000 52.65524309869656,37.2625337190708,1400000 126.1801354992609,18.76115646637513,1400000
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-	</Folder>
-</Document>
+		<Style id="sn_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff1000fc</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_ylw-pushpin5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin4</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin2">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff2200fc</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2d00fc</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_ylw-pushpin4">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff0c00fc</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2700fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin4">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0b00fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin3">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0b00fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff1000fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2200fc</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_ylw-pushpin2">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2a00fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin00">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2700fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin5">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2700fc</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin3</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ylw-pushpin3">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2200fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ffff0000</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2a00fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin10">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff2200fc</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2d00fc</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin2">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff0c00fc</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff2700fc</color>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_ylw-pushpin10">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin00</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin5</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder>
+			<name>当時のモンゴル帝国</name>
+			<open>1</open>
+			<Placemark>
+				<name>モンゴル1206</name>
+				<TimeSpan>
+					<begin>1206</begin>
+					<end>1218-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								92.58519897078335,56.84251534353812,106473 98.89331046616428,44.60178867430128,106473 119.1762954046559,45.65406194133855,106473 121.0548621984773,50.25225728509107,106473 122.2010037004821,54.58473070311505,106473 122.451283368877,57.96742913805531,106473 112.0676744086049,58.23871026948135,106473 92.58519897078335,56.84251534353812,106473 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>モンゴル1219</name>
+				<TimeSpan>
+					<begin>1219</begin>
+					<end>1222-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								83.85337280350356,56.197127393174,168052 92.62554117076577,43.1287473335242,168052 106.7580583875804,42.61609351891552,168052 121.6414631821288,44.48339850100509,168052 132.8364177010964,48.75916429119563,168052 133.5087726447005,54.10331392980932,168052 132.1176024411234,57.78341441919319,168052 125.444073006757,60.35854551483796,168052 121.71479221738,61.26497400426372,168052 124.4172349214744,60.70491147053012,168052 132.2005271257481,57.83409051572301,168052 134.7208669190583,64.21108036166451,168052 107.007160729113,60.84469877418614,168052 83.85337280350356,56.197127393174,168052 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>モンゴル1223</name>
+				<TimeSpan>
+					<begin>1223</begin>
+					<end>1226-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								69.12307881652525,47.87739756531688,229686 78.43016268686391,37.6839559329028,229686 95.62998891347169,44.88183151103028,229686 112.1561116134407,42.01064064787047,229686 127.1004196854815,42.26977388649784,229686 138.1817612636281,47.48411556411996,229686 143.7279162305634,55.77343622162579,229686 140.7142308317185,61.18623816174014,229686 121.7202827559533,62.5138691048688,229686 115.0136513738383,63.65302048299986,229686 87.85198413552129,61.86022400738791,229686 69.12307881652525,47.87739756531688,229686 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>モンゴル1227</name>
+				<TimeSpan>
+					<begin>1227</begin>
+					<end>1236-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								65.0603518825188,51.99505952382015,316361 73.35171282369443,37.15785557495322,316361 83.05084906178212,31.86366430769777,316361 108.3709014006241,41.12450941182001,316361 106.6789289248221,40.29671717494681,316361 108.6918104481205,40.24312715711825,316361 107.8487227218003,40.1670715866913,316361 106.6408759398063,40.64123500451387,316361 108.3635025108484,40.46113348032451,316361 109.1178974145084,40.79880732869493,316361 108.607482721569,40.13186795453453,316361 108.3562529997056,39.79787029063245,316361 108.7439486185504,39.47078750675971,316361 109.9016446177532,39.0957738236394,316361 121.9715982443763,42.27657856423691,316361 123.9013581381279,42.19230691691533,316361 125.2491078131125,41.92081898193866,316361 126.2453424608191,41.65088271871155,316361 127.0670639930656,42.38642749135163,316361 126.1607123679214,42.94090959453482,316361 124.6501034278882,44.1517022107077,316361 125.5341354167038,43.23609096448686,316361 126.8532642071437,42.72842905899349,316361 110.4745637423346,40.8637317703418,316361 145.0771674126085,44.96117913837173,316361 154.6831998561944,48.7906740965242,316361 155.500403745425,50.22112688271594,316361 154.4987131559605,52.31401850692309,316361 145.3847728855321,56.59847293514502,316361 135.6074497856302,56.41052955730181,316361 145.5253402054965,56.70071239880893,316361 151.1785626899727,53.56499852858695,316361 148.0773736451172,54.68659056272264,316361 151.1210591177791,55.29182284235497,316361 154.2831449917807,55.82377431100107,316361 158.8017756803387,56.35081257850726,316361 155.8934286239362,56.98039883210376,316361 157.8797421818662,56.52952135771173,316361 156.9561597056944,56.57960201392396,316361 162.539478877184,56.50186621527807,316361 158.1577148188531,56.47691888674217,316361 155.74658050987,57.28248880772713,316361 156.6158608098808,58.34180504780104,316361 158.2651913629968,59.28196476091573,316361 157.4265814374689,60.05519031918059,316361 160.6826678288899,59.89650705080559,316361 161.7465769620865,59.59514080202647,316361 162.2078104046299,59.6265404306921,316361 156.1208115672737,60.14145763290232,316361 153.8087035398163,60.1275604781442,316361 154.8271612136882,59.88680968410857,316361 156.2479254033326,59.68782018090618,316361 156.7924254011654,59.8290419855467,316361 153.9721560847042,59.99812245850399,316361 153.0866354345625,60.32381428330932,316361 147.5452735201311,60.66707497099938,316361 145.1695995478775,60.36182614744257,316361 137.0404066395843,59.22836778713286,316361 147.609036842163,60.65876267745892,316361 160.9279255057181,59.74939446244949,316361 157.9657320631895,60.2187432686513,316361 169.0761506878774,62.67811739995012,316361 103.5667182859973,63.89671617242685,316361 65.0603518825188,51.99505952382015,316361 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>モンゴル1237</name>
+				<TimeSpan>
+					<begin>1237</begin>
+					<end>1258-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								59.04100208873405,48.16646328591446,400197 66.28783086900766,33.41019570948846,400197 90.97829073037235,34.48684310338379,400197 103.3568544037355,38.87147800783364,400197 114.3339785026042,40.88694592739382,400197 126.099073527857,42.15703865092233,400197 141.8579541155979,34.00614349919552,400197 148.509208471773,46.7445396424762,400197 141.1221881830213,52.86298318214376,400197 140.9854465176234,53.64490402064442,400197 137.9332823149543,54.91405202687957,400197 138.6356267102847,55.76532074941826,400197 142.9812583834185,58.80028254486161,400197 149.0270527096999,59.50248737189772,400197 152.8041252107072,59.59897525109529,400197 155.1264447993439,59.60616217474876,400197 150.2949437756484,60.98641466644652,400197 146.0893628417471,61.71439881326363,400197 152.9187256365076,63.77909096455845,400197 145.2133046636796,64.81269426730164,400197 131.7215459008519,65.21940559896514,400197 124.6146844450563,65.30690955367838,400197 114.6429043184535,64.94380742267614,400197 103.9738631772539,63.62151577234362,400197 96.60253710907243,63.82916303604997,400197 89.43924292107876,62.07760802550599,400197 83.88522971360375,61.27450216103687,400197 69.53143390931022,58.14247398156691,400197 59.04100208873405,48.16646328591446,400197 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>モンゴル1259</name>
+				<TimeSpan>
+					<begin>1259</begin>
+					<end>1278-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								140.9329296159733,30.81633345805296,1500000 140.8694656454501,42.31954536638864,1500000 152.0900709392726,45.25503313822048,1500000 150.370361819294,46.17333396154588,1500000 149.4881039777219,47.05464255246398,1500000 151.4940802738539,48.3209281291707,1500000 151.7135367028251,50.83681285185126,1500000 148.8494915777808,53.35653116666747,1500000 147.432930214313,55.76516715678538,1500000 143.8764354517193,56.8188348026649,1500000 137.2708222781289,54.40968464275065,1500000 134.2666865100241,55.0352620686216,1500000 128.2456113629424,56.3470239239584,1500000 114.8871422192325,58.81815688150068,1500000 104.0227728034685,60.92520014679199,1500000 86.94003142661229,60.75585932699266,1500000 75.00476913613214,59.9332315316446,1500000 62.44892611258852,57.71406611841413,1500000 54.59632035614996,54.67324399424943,1500000 56.48460542253905,51.04361365915731,1500000 54.71578154820803,48.08609083666917,1500000 55.58135853607293,30.9013218541279,1500000 140.9329296159733,30.81633345805296,1500000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>モンゴル1279</name>
+				<TimeSpan>
+					<begin>1279</begin>
+					<end>1294-12-31T23:59:59Z</end>
+				</TimeSpan>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								126.1801354992609,18.76115646637513,1400000 139.8351593319678,33.87104500069209,1400000 145.3339576247169,42.97432014003246,1400000 147.8988865106093,44.47972585509501,1400000 148.5928780612224,45.65674228083846,1400000 154.1130976839588,48.53325689379032,1400000 151.3198850745851,52.52293988260437,1400000 139.8635664819658,52.36486135377266,1400000 134.9472355382465,54.18865071201702,1400000 130.7750236196718,56.60788368716191,1400000 125.2984700031043,57.9842861278953,1400000 117.0903004863588,59.71402913410436,1400000 108.6057124165781,61.86312938000988,1400000 100.5849647283583,62.79207209156609,1400000 95.27793815921579,63.15738754132046,1400000 88.4634701511133,63.17185952461107,1400000 78.79258518581973,62.76365458678806,1400000 73.53232314284567,63.26710341680009,1400000 65.40796322425706,61.50744656884343,1400000 59.843208341104,59.56997306540343,1400000 49.66120655993182,55.90998085887814,1400000 51.61728740632499,50.23567814960026,1400000 52.65524309869656,37.2625337190708,1400000 126.1801354992609,18.76115646637513,1400000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
 </kml>

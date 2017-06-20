@@ -3,37 +3,6 @@
 <Document>
 	<name>当時マルコ行ったの場所.kml</name>
 	<open>1</open>
-	<Style id="sh_hiker4">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.6</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker3">
-		<IconStyle>
-			<color>ff0affff</color>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
 	<Style id="sh_ダウンロード">
 		<IconStyle>
 			<scale>6</scale>
@@ -51,58 +20,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_hiker4">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fffefffd</color>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_hiker2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker00</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_hiker">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.7</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_hiker0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_hiker0">
 		<IconStyle>
 			<scale>7.09092</scale>
 			<Icon>
@@ -118,7 +36,60 @@
 			<width>3.7</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker5">
+	<StyleMap id="msn_hiker">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ダウンロード">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker0">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff7ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2.5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hiker1">
 		<IconStyle>
 			<scale>7.09092</scale>
 			<Icon>
@@ -129,6 +100,32 @@
 		<LabelStyle>
 			<color>ffebffe8</color>
 			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hiker8">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fffefffd</color>
 		</LabelStyle>
 		<LineStyle>
 			<color>ff2f1afc</color>
@@ -151,9 +148,9 @@
 			<width>2.5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker7">
+	<Style id="sh_hiker2">
 		<IconStyle>
-			<scale>7.09092</scale>
+			<scale>7</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
 			</Icon>
@@ -168,33 +165,58 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker1">
+	<StyleMap id="msn_ダウンロード0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ダウンロード0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ダウンロード</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hiker50">
 		<IconStyle>
-			<scale>7.09092</scale>
+			<scale>6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff0c00fc</color>
 			<width>2.7</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="failed">
+	<Style id="sn_hiker">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff7ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2.5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed0</styleUrl>
+			<styleUrl>#sn_hiker5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed1</styleUrl>
+			<styleUrl>#sh_hiker3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_hiker0">
 		<IconStyle>
+			<color>ff0affff</color>
 			<scale>6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
@@ -210,27 +232,10 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker10">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_hiker">
+	<StyleMap id="msn_hiker2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker5</styleUrl>
+			<styleUrl>#sn_hiker1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -240,40 +245,27 @@
 	<StyleMap id="msn_hiker4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker1</styleUrl>
+			<styleUrl>#sn_hiker10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_hiker21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_hiker1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_hiker2">
+	<Style id="sh_hiker3">
 		<IconStyle>
-			<scale>6</scale>
+			<scale>7.09092</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<LabelStyle>
-			<color>fff5fff4</color>
-		</LabelStyle>
 		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3.7</width>
+			<color>ff0c00fc</color>
+			<width>2.6</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker00">
+	<Style id="sh_hiker4">
 		<IconStyle>
 			<color>ff0affff</color>
 			<scale>7.09092</scale>
@@ -291,112 +283,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_hiker3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ダウンロード">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ダウンロード</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_hiker2">
-		<IconStyle>
-			<scale>7</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_hiker30">
-		<IconStyle>
-			<scale>6.99999</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ダウンロード1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ダウンロード</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_hiker30">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_hiker6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_hiker5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed1">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_hiker8">
+	<Style id="sh_hiker5">
 		<IconStyle>
 			<scale>7.09092</scale>
 			<Icon>
@@ -405,7 +292,25 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
-			<color>fffefffd</color>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker1">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
 		</LabelStyle>
 		<LineStyle>
 			<color>ff2f1afc</color>
@@ -421,7 +326,47 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_ダウンロード">
+	<StyleMap id="msn_hiker10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hiker10">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker6">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ダウンロード0">
 		<IconStyle>
 			<scale>6</scale>
 			<Icon>
@@ -436,6 +381,87 @@
 		<LineStyle>
 			<color>ff2f1afc</color>
 			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="failed1">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hiker2">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker4">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fffefffd</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker7">
+		<IconStyle>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker10">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff7ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="sh_hiker20">
@@ -455,17 +481,17 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ダウンロード0">
+	<StyleMap id="msn_ダウンロード">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ダウンロード</styleUrl>
+			<styleUrl>#sn_ダウンロード0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ダウンロード</styleUrl>
+			<styleUrl>#sh_hiker9</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_hiker">
+	<Style id="sn_hiker00">
 		<IconStyle>
 			<scale>6</scale>
 			<Icon>
@@ -477,13 +503,134 @@
 			<color>ffebffe8</color>
 			<scale>0.9</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff2f1afc</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
+	<Style id="sn_hiker3">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fff5fff4</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_hiker9">
+		<IconStyle>
+			<scale>6.99999</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker5">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0c00fc</color>
+			<width>2.6</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker100">
+		<IconStyle>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffebffe8</color>
+			<scale>0.9</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hiker5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hiker6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ダウンロード1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ダウンロード</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hiker7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hiker60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker8</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_hiker6">
 		<IconStyle>
 			<scale>6</scale>
@@ -501,92 +648,14 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_hiker00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_hiker1">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fff7ffff</color>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff0600fc</color>
-			<width>2.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker10">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>ffebffe8</color>
-			<scale>0.9</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_hiker50">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_hiker7">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.6</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker5">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff0c00fc</color>
-			<width>2.7</width>
-		</LineStyle>
-	</Style>
 	<Folder>
 		<name>当時マルコ行ったの場所</name>
 		<open>1</open>
 		<Placemark>
 			<name>カシュガル</name>
+			<description>カシュガル市（カシュガルし、ウイグル語:قەشقەر　転写:Qeşqer、ケシケル市、喀什市）は中華人民共和国新疆ウイグル自治区カシュガル地区に位置する県級市である。同地区の首府が設置される。人口の80%は土着のウイグル族など少数民族が占める。カシュガル大都市圏人口は120万人に達する。古くからシルクロードの要衝として、またイスラームの拠点都市としても発展し、国家歴史文化名城に指定されている。
+
+https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%AB%E5%B8%82#.E6.AD.B4.E5.8F.B2</description>
 			<LookAt>
 				<longitude>78.07847062828088</longitude>
 				<latitude>39.38405113431602</latitude>
@@ -600,7 +669,7 @@
 				<begin>1281</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker2</styleUrl>
+			<styleUrl>#msn_hiker6</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -610,6 +679,10 @@
 		</Placemark>
 		<Placemark>
 			<name>タブリーズ</name>
+			<description>タブリーズ（ペルシア語: تبریز‎; Tabrīz）はイラン北西部の都市。東アーザルバーイジャーン州（東アゼルバイジャン州）の州都。人口は約140万人でイラン第4位。
+この都市がいつ建設されたかには諸説あり、その歴史は少なくとも3世紀のサーサーン朝までさかのぼることができる。タブリーズの名は、297年にアルメニア王国の王ティリダテス3世の名に因んでタウリス（Tauris）と呼ばれたことに由来する。その後、アラブ人のイスラム勢力が侵攻する。8世紀のアッバース朝のカリフであったハールーン・アッ＝ラシードの妻の一人によって再建された。
+
+https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%96%E3%83%AA%E3%83%BC%E3%82%BA</description>
 			<LookAt>
 				<longitude>46.3981156922823</longitude>
 				<latitude>38.14419205224542</latitude>
@@ -623,7 +696,7 @@
 				<begin>1285-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker50</styleUrl>
+			<styleUrl>#msn_hiker2</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -633,6 +706,9 @@
 		</Placemark>
 		<Placemark>
 			<name>バグダッド</name>
+			<description>バグダード（アラビア語: بغداد‎／ラテン文字表記:Baghdad, Baġdād）は、イラクの首都で同国最大の都市。また、バグダード県の県都でもある。アッバース朝によって建設された古都であり、中東諸国ではカイロ、テヘラン、イスタンブールに次ぐ大都市である。2005年の人口はおよそ590.4万人[1]。日本語では多くの場合バグダッドと表記されるが、アラビア語の綴りと発音（bæɣˈdæːd）に近づけるとバグダードという表記になる。
+
+https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%B0%E3%83%80%E3%83%BC%E3%83%89</description>
 			<LookAt>
 				<longitude>44.61751802457181</longitude>
 				<latitude>33.52488677213655</latitude>
@@ -669,7 +745,7 @@
 				<begin>1284</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_ダウンロード</styleUrl>
+			<styleUrl>#msn_ダウンロード1</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -679,6 +755,9 @@
 		</Placemark>
 		<Placemark>
 			<name>モースル</name>
+			<description>モースルはイラク北部に位置する、古代のニネヴェの遺跡と世界有数の石油生産で知られる大都市である。
+モースル市の住民はほとんどがアラブ人であるが、周囲の地域はクルド人地域になる。また主要な少数民族にはネストリウス派キリスト教徒のアッシリア人が、その他トルクメン人も住んでいる。1987年の市の人口は664,221人で、2002年の調査では1,739,800人と見積もられるほど激増した。 2014年6月に過激派組織ISILが占拠し、イラクでの重要拠点となった。
+https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%82%B9%E3%83%AB</description>
 			<LookAt>
 				<longitude>43.16400066916505</longitude>
 				<latitude>36.35664798210259</latitude>
@@ -692,7 +771,7 @@
 				<begin>1285</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_ダウンロード1</styleUrl>
+			<styleUrl>#msn_ダウンロード</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -886,6 +965,14 @@
 		</Placemark>
 		<Placemark>
 			<name>ホータン</name>
+			<description>ホータン市（-し、和田市）は、中華人民共和国新疆ウイグル自治区ホータン地区に位置する県級市。高品質の軟玉の産地として知られる。
+古代西チベット語で「玉の城」「玉の村」
+ウイグル語で「玉の町」
+土地に居住していた集団の名前[2]
+古代のホータンは「于闐」（ウテン、üdün）と称されるオアシス都市国家で、シルクロード（西域南道）の要衝であった。土地の名前は転訛を繰り返し、中国語で和闐、和田と音訳されて現在に至っている。また、テュルク語のイリチ（伊里斉）の別名でも知られる。
+
+https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%82%BF%E3%83%B3%E5%B8%82
+</description>
 			<LookAt>
 				<longitude>80.23578079052896</longitude>
 				<latitude>37.10086740982856</latitude>
@@ -899,7 +986,7 @@
 				<begin>1280-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker4</styleUrl>
+			<styleUrl>#msn_hiker7</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -978,6 +1065,10 @@
 		</Placemark>
 		<Placemark>
 			<name>クムル</name>
+			<description>クムル市（クムルし）は、中華人民共和国新疆ウイグル自治区に位置する地級市。哈密市（ハミし）ともいう。
+
+https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A0%E3%83%AB%E5%B8%82
+</description>
 			<LookAt>
 				<longitude>93.55146088328222</longitude>
 				<latitude>42.81282905633206</latitude>
@@ -991,7 +1082,7 @@
 				<begin>1274-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker4</styleUrl>
+			<styleUrl>#msn_hiker7</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1199,7 +1290,7 @@
 				<begin>1270</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker6</styleUrl>
+			<styleUrl>#msn_hiker60</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1209,9 +1300,11 @@
 		</Placemark>
 		<Placemark>
 			<name>バーク・カーン</name>
-			<description>别儿哥金帐汗国的君主之一(西鞑靼郡主)，正式名称是纳速剌丁·摩诃末·别儿哥汗。统治期间为1257年－1267年。成吉思汗的孙子。
-马可波罗一行从克里米亚一路沿着伏尔加河走来到了西鞑靼（现在的塔塔尔斯坦）
-他们在这里待了一年后西鞑靼跟东鞑靼发生了战争，后面在战争马克一行人不能往回走只能继续往前走。</description>
+			<description>バーク・カーンはジンギスカンの孫です。キプチャク・ハン国（欽察汗国）君主の一つです（今のロッシャのカザンです）。治世期間（１２５７−１２６７）。
+マルコたちはここで一年ぐらい滞在した。
+
+https://en.wikipedia.org/wiki/Berke
+</description>
 			<LookAt>
 				<longitude>49.12460421454777</longitude>
 				<latitude>55.82646295635148</latitude>
@@ -1248,7 +1341,7 @@
 				<begin>1272</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker1</styleUrl>
+			<styleUrl>#msn_hiker10</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1258,7 +1351,12 @@
 		</Placemark>
 		<Placemark>
 			<name>コンスタンティノープル</name>
-			<description>1271年にマルコは、父ニコロと叔父マッフェオに同伴する形でコンスタンティノープル から（今のトルコの首都イスタンブール）旅行へ出発した</description>
+			<description>1271年にマルコは、父ニコロと叔父マッフェオに同伴する形でコンスタンティノープル から（今のトルコの首都イスタンブール）旅行へ出発した。
+コンスタンティノープル（英: Constantinople、ラテン語: Constantinopolis、古代ギリシア語: Κωνσταντινούπολις）は、東ローマ帝国の首都であった都市で、現在のトルコの都市イスタンブールの前身である。
+強固な城壁の守りで知られ、330年の建設以来、1453年の陥落まで難攻不落を誇り、東西交易路の要衝として繁栄した。正教会の中心地ともなり、現在もコンスタンディヌーポリ総主教庁が置かれている。
+
+https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%86%E3%82%A3%E3%83%8E%E3%83%BC%E3%83%97%E3%83%AB
+</description>
 			<LookAt>
 				<longitude>28.97583705241147</longitude>
 				<latitude>41.00858290065257</latitude>
@@ -1282,7 +1380,11 @@
 		</Placemark>
 		<Placemark>
 			<name>クリミア</name>
-			<description>他们从君士坦丁堡出发度过黑海来到了克里米亚</description>
+			<description>古代には、キンメリア人とスキタイ人の居住地であるとともに、ギリシア人の植民都市が建設された。この時代の主要都市であるケルソネソスは現在のセヴァストポリの近郊にあった。
+
+
+
+https://ja.wikipedia.org/wiki/クリミア半島</description>
 			<LookAt>
 				<longitude>33.90082825492267</longitude>
 				<latitude>46.81344327324727</latitude>
@@ -1296,7 +1398,7 @@
 				<begin>1271-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker30</styleUrl>
+			<styleUrl>#msn_hiker1</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1306,11 +1408,10 @@
 		</Placemark>
 		<Placemark>
 			<name>Qubilai qaγan</name>
-			<description>马克他们跟着使者骑行一年多来到了上都，跟元世祖忽必烈见面了
-上都是现在的dolon nor 即现在的中国内蒙古多伦淖尔镇。
+			<description>マルコたちは使節と一緒に当時のモンゴル帝国の首都にきた（今の中国の内蒙古のドロン・ノールです）ここでモンゴル帝国の第5代皇帝クビライ・カアンと出会った。
+帝国の第5代皇帝（大ハーン）。同時代のパスパ文字モンゴル語およびモンゴル文字などの中期モンゴル語のラテン文字転写では Qubilai Qa&apos;an、Qubilai Qaγan。現代モンゴル語のキリル文字転写ではХубилай хаан。漢字表記は忽必烈。『集史』をはじめとするモンゴル帝国時代のペルシア語表記（『集史』「クビライ・カアン紀」など）では قوبيلاى قاآن Qūbīlāī qā&apos;ān など書かれる。死後に尊号を追諡され「賢きカアン」を意味するセチェン・カアン（Sečen Qa&apos;an 薛禪皇帝）と号した。
 
-元世祖忽必烈（蒙古语：ᠬᠤᠪᠢᠯᠠᠢ
-ᠬᠠᠭᠠᠨ，鲍培转写：Qubilai qaγan，秘史记音：中忽必來[1]，西里尔字母：Хубилай хаан[2]；1215年9月23日－1294年2月18日），清代乾隆晚期乾隆帝命改譯为呼必赉[3]，今日學界已無人使用。孛儿只斤氏，蒙古族，政治家，军事家。父拖雷第四子，母唆鲁禾帖尼第二子。</description>
+https://zh.wikipedia.org/wiki/%E5%BF%BD%E5%BF%85%E7%83%88</description>
 			<LookAt>
 				<longitude>116.4859439845806</longitude>
 				<latitude>42.20468658875139</latitude>

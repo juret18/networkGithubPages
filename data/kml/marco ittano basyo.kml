@@ -39,7 +39,7 @@
 	<StyleMap id="msn_hiker">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker2</styleUrl>
+			<styleUrl>#sn_hiker3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -82,7 +82,7 @@
 	<StyleMap id="msn_hiker0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker3</styleUrl>
+			<styleUrl>#sn_hiker4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -116,22 +116,6 @@
 			<styleUrl>#sh_hiker10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_hiker8">
-		<IconStyle>
-			<scale>7.09092</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fffefffd</color>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
 	<Style id="sh_hiker21">
 		<IconStyle>
 			<scale>7.09092</scale>
@@ -175,6 +159,25 @@
 			<styleUrl>#sh_ダウンロード</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_hiker3">
+		<IconStyle>
+			<color>fffdfbff</color>
+			<scale>7.09092</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fffefffd</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
 	<Style id="sn_hiker50">
 		<IconStyle>
 			<scale>6</scale>
@@ -211,10 +214,29 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker3</styleUrl>
+			<styleUrl>#sh_hiker4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_hiker0">
+		<IconStyle>
+			<color>fffdfbff</color>
+			<scale>6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>fffefffd</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff2f1afc</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker1">
 		<IconStyle>
 			<color>ff0affff</color>
 			<scale>6</scale>
@@ -235,7 +257,7 @@
 	<StyleMap id="msn_hiker2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker1</styleUrl>
+			<styleUrl>#sn_hiker2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -252,7 +274,7 @@
 			<styleUrl>#sh_hiker21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_hiker3">
+	<Style id="sh_hiker4">
 		<IconStyle>
 			<scale>7.09092</scale>
 			<Icon>
@@ -265,7 +287,7 @@
 			<width>2.6</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker4">
+	<Style id="sh_hiker5">
 		<IconStyle>
 			<color>ff0affff</color>
 			<scale>7.09092</scale>
@@ -283,7 +305,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker5">
+	<Style id="sh_hiker50">
 		<IconStyle>
 			<scale>7.09092</scale>
 			<Icon>
@@ -300,7 +322,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_hiker1">
+	<Style id="sn_hiker2">
 		<IconStyle>
 			<scale>6</scale>
 			<Icon>
@@ -402,7 +424,17 @@
 			<styleUrl>#failed1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_hiker2">
+	<StyleMap id="msn_hiker3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_hiker3">
 		<IconStyle>
 			<scale>6</scale>
 			<Icon>
@@ -415,22 +447,6 @@
 		<LineStyle>
 			<color>ff0c00fc</color>
 			<width>2.7</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_hiker4">
-		<IconStyle>
-			<scale>6</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<LabelStyle>
-			<color>fffefffd</color>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff2f1afc</color>
-			<width>3</width>
 		</LineStyle>
 	</Style>
 	<Style id="sh_hiker7">
@@ -488,7 +504,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker9</styleUrl>
+			<styleUrl>#sh_hiker8</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_hiker00">
@@ -508,7 +524,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_hiker3">
+	<Style id="sn_hiker4">
 		<IconStyle>
 			<scale>6</scale>
 			<Icon>
@@ -524,7 +540,7 @@
 			<width>3.7</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_hiker9">
+	<Style id="sh_hiker8">
 		<IconStyle>
 			<scale>6.99999</scale>
 			<Icon>
@@ -571,7 +587,7 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_hiker3">
+	<StyleMap id="msn_hiker30">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_hiker00</styleUrl>
@@ -594,11 +610,11 @@
 	<StyleMap id="msn_hiker6">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_hiker0</styleUrl>
+			<styleUrl>#sn_hiker1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker4</styleUrl>
+			<styleUrl>#sh_hiker5</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ダウンロード1">
@@ -608,7 +624,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_hiker5</styleUrl>
+			<styleUrl>#sh_hiker50</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_hiker7">
@@ -619,16 +635,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_hiker0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_hiker60">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_hiker4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_hiker8</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_hiker6">
@@ -840,7 +846,7 @@ https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%82%B9%E3%83%AB</description>
 				<begin>1282-06</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker3</styleUrl>
+			<styleUrl>#msn_hiker30</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>
@@ -1290,7 +1296,7 @@ https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%A0%E3%83%AB%E5%B8%82
 				<begin>1270</begin>
 				<end>1288</end>
 			</TimeSpan>
-			<styleUrl>#msn_hiker60</styleUrl>
+			<styleUrl>#msn_hiker3</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<altitudeMode>relativeToGround</altitudeMode>

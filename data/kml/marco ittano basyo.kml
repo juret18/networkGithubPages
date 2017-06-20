@@ -1239,7 +1239,7 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<TimeSpan>
-				<begin>1272-06</begin>
+				<begin>1272</begin>
 				<end>1288</end>
 			</TimeSpan>
 			<styleUrl>#msn_hiker1</styleUrl>
